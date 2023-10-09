@@ -26,7 +26,6 @@ class TuringMachine:
         return head_position
 
     def step(self):
-
         print(f'Tape 1: {self.tape1}')
         print(f'Head position: {self.head_position_t1}')
         print(f'Tape 2: {self.tape2}')
